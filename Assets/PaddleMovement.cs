@@ -1,16 +1,12 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Serialization;
 
 public class PaddleMovement : MonoBehaviour
 {
     private Pong _actions;
     private InputAction _pAction;
     public bool isRightPaddle;
+    
 
     private void Awake()
     {

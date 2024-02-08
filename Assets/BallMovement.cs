@@ -1,13 +1,10 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
 public class BallMovement : MonoBehaviour
 {
-    public int _moveDirectionX;
+    [FormerlySerializedAs("_moveDirectionX")] public int moveDirectionX;
     private float _startZ;
     private Rigidbody _rb;
     public static BallMovement Instance;
@@ -23,7 +20,7 @@ public class BallMovement : MonoBehaviour
     private void Start()
     {
         var mov = Vector3.zero;
-        mov.x = _moveDirectionX;
+        mov.x = moveDirectionX;
         _startZ = Random.Range(-0.8f, 0.8f);
         mov.z = _startZ;
         _rb.AddForce(mov.normalized * 1000);
@@ -34,20 +31,20 @@ public class BallMovement : MonoBehaviour
         switch (other.gameObject.name)
         {
             case "PaddleLeft" or "PaddleRight":
-                _moveDirectionX *= -1;
+                moveDirectionX *= -1;
                 var transform1 = transform;
                 _startZ = (transform1.position.z - other.transform.position.z) * 6f;
                 var mov = Vector3.zero;
-                mov.x = _moveDirectionX;
+                mov.x = moveDirectionX;
                 _startZ = Random.Range(-0.8f, 0.8f);
                 mov.z = _startZ;
                 _rb.AddForce(mov.normalized * 500);
                 return;
             case "WallRight":
-                PartyManager.instance.HandleLeftScore();
+                PartyManager.Instance.HandleLeftScore();
                 break;
             case "WallLeft":
-                PartyManager.instance.HandleRightScore();
+                PartyManager.Instance.HandleRightScore();
                 break;
         }
     }

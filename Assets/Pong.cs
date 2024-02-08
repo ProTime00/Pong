@@ -71,6 +71,15 @@ public partial class @Pong: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""Restart"",
+                    ""type"": ""Button"",
+                    ""id"": ""7f33b74e-9ae2-4fc8-846f-6580f76e66d3"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -425,6 +434,28 @@ public partial class @Pong: IInputActionCollection2, IDisposable
                     ""action"": ""LeftPaddleBind"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""9ced8e68-de4e-4d27-b51c-4aa2ba19b417"",
+                    ""path"": ""<Keyboard>/r"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Restart"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""54ba0fce-c6fd-472f-99c9-8bab9f45c31d"",
+                    ""path"": ""<XInputController>/start"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Restart"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         },
@@ -1015,6 +1046,7 @@ public partial class @Pong: IInputActionCollection2, IDisposable
         m_Player_Fire = m_Player.FindAction("Fire", throwIfNotFound: true);
         m_Player_RightPaddleBind = m_Player.FindAction("RightPaddleBind", throwIfNotFound: true);
         m_Player_LeftPaddleBind = m_Player.FindAction("LeftPaddleBind", throwIfNotFound: true);
+        m_Player_Restart = m_Player.FindAction("Restart", throwIfNotFound: true);
         // UI
         m_UI = asset.FindActionMap("UI", throwIfNotFound: true);
         m_UI_Navigate = m_UI.FindAction("Navigate", throwIfNotFound: true);
@@ -1093,6 +1125,7 @@ public partial class @Pong: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Fire;
     private readonly InputAction m_Player_RightPaddleBind;
     private readonly InputAction m_Player_LeftPaddleBind;
+    private readonly InputAction m_Player_Restart;
     public struct PlayerActions
     {
         private @Pong m_Wrapper;
@@ -1102,6 +1135,7 @@ public partial class @Pong: IInputActionCollection2, IDisposable
         public InputAction @Fire => m_Wrapper.m_Player_Fire;
         public InputAction @RightPaddleBind => m_Wrapper.m_Player_RightPaddleBind;
         public InputAction @LeftPaddleBind => m_Wrapper.m_Player_LeftPaddleBind;
+        public InputAction @Restart => m_Wrapper.m_Player_Restart;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -1126,6 +1160,9 @@ public partial class @Pong: IInputActionCollection2, IDisposable
             @LeftPaddleBind.started += instance.OnLeftPaddleBind;
             @LeftPaddleBind.performed += instance.OnLeftPaddleBind;
             @LeftPaddleBind.canceled += instance.OnLeftPaddleBind;
+            @Restart.started += instance.OnRestart;
+            @Restart.performed += instance.OnRestart;
+            @Restart.canceled += instance.OnRestart;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -1145,6 +1182,9 @@ public partial class @Pong: IInputActionCollection2, IDisposable
             @LeftPaddleBind.started -= instance.OnLeftPaddleBind;
             @LeftPaddleBind.performed -= instance.OnLeftPaddleBind;
             @LeftPaddleBind.canceled -= instance.OnLeftPaddleBind;
+            @Restart.started -= instance.OnRestart;
+            @Restart.performed -= instance.OnRestart;
+            @Restart.canceled -= instance.OnRestart;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -1332,6 +1372,7 @@ public partial class @Pong: IInputActionCollection2, IDisposable
         void OnFire(InputAction.CallbackContext context);
         void OnRightPaddleBind(InputAction.CallbackContext context);
         void OnLeftPaddleBind(InputAction.CallbackContext context);
+        void OnRestart(InputAction.CallbackContext context);
     }
     public interface IUIActions
     {

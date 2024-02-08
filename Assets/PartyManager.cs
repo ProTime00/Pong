@@ -1,57 +1,72 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 
 public class PartyManager : MonoBehaviour
 {
     public int scoreLeft;
     public int scoreRight;
-    public GameObject DESTROYED;
-    public GameObject BallPrefab;
-    private int wait = 150;
-    private bool scoredRight;
-    private bool scoredLeft;
-    private BallMovement ballMovement;
+    [FormerlySerializedAs("DESTROYED")] public GameObject destroyed;
+    [FormerlySerializedAs("BallPrefab")] public GameObject ballPrefab;
+    private int _wait = 150;
+    private bool _scoredRight;
+    private bool _scoredLeft;
+    private BallMovement _ballMovement;
+    [FormerlySerializedAs("PaddleLeft")] public GameObject paddleLeft;
+    [FormerlySerializedAs("PaddleRight")] public GameObject paddleRight;
     
+    private InputAction _restart;
+    private Pong _actions;
     
-
-    public static PartyManager instance;
+    public static PartyManager Instance;
 
     private void Awake()
     {
-        instance = this;
+        _actions = new Pong();
+        Instance = this;
+    }
+
+    private void OnEnable()
+    {
+        _restart = _actions.Player.Restart;
+        _restart.Enable();
+        _restart.performed += _ => Restart();
+    }
+
+    private void OnDisable()
+    {
+        _restart.Disable();
     }
 
     private void Start()
     {
-        ballMovement = BallPrefab.GetComponent<BallMovement>();
+        _ballMovement = ballPrefab.GetComponent<BallMovement>();
     }
 
     private void FixedUpdate()
     {
-        if (scoredLeft)
+        if (_scoredLeft)
         {
-            wait--;
-            if (wait == 0)
+            _wait--;
+            if (_wait == 0)
             {
-                wait = 150;
-                scoredLeft = false;
-                ballMovement._moveDirectionX = 1;
-                DESTROYED = Instantiate(BallPrefab);
+                _wait = 150;
+                _scoredLeft = false;
+                _ballMovement.moveDirectionX = 1;
+                destroyed = Instantiate(ballPrefab);
             }
         }
 
-        if (scoredRight)
+        if (_scoredRight)
         {
-            wait--;
-            if (wait == 0)
+            _wait--;
+            if (_wait == 0)
             {
-                wait = 150;
-                scoredRight = false;
-                ballMovement._moveDirectionX = -1;
-                DESTROYED = Instantiate(BallPrefab);
+                _wait = 150;
+                _scoredRight = false;
+                _ballMovement.moveDirectionX = -1;
+                destroyed = Instantiate(ballPrefab);
             }
         }
     }
@@ -59,34 +74,48 @@ public class PartyManager : MonoBehaviour
     public void HandleLeftScore()
     {
         scoreLeft += 1;
-        if (scoreLeft >= 11)
+        Destroy(destroyed);
+        if (scoreLeft >= 3)
         {
             HandleWinLeft();
             return;
         }
-        scoredLeft = true;
-        Destroy(DESTROYED);
+        _scoredLeft = true;
     }
 
     private void HandleWinLeft()
     {
-        Debug.Log("Left win!");
+        var materialWin = paddleLeft.GetComponent<Renderer>();
+        materialWin.material.color = Color.green;
+        var materialLose = paddleRight.GetComponent<Renderer>();
+        materialLose.material.color = Color.red;
     }
 
     public void HandleRightScore()
     {
         scoreRight += 1;
-        if (scoreRight >= 11)
+        Destroy(destroyed);
+        if (scoreRight >= 3)
         {
             HandleWinRight();
             return;
         }
-        scoredRight = true;
-        Destroy(DESTROYED);
+        _scoredRight = true;
     }
 
     private void HandleWinRight()
     {
-        Debug.Log("Right win!");
+        var materialWin = paddleRight.GetComponent<Renderer>();
+        materialWin.material.color = Color.green;
+        var materialLose = paddleLeft.GetComponent<Renderer>();
+        materialLose.material.color = Color.red;
+    }
+
+    private void Restart()
+    {
+        if (scoreRight >= 3 || scoreLeft >= 3)
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
     }
 }

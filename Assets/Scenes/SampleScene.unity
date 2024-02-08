@@ -333,7 +333,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: caafd0f76f1a945b9a98a811b8bf94d3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -514,8 +514,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreLeft: 0
   scoreRight: 0
-  DESTROYED: {fileID: 1141839620}
-  BallPrefab: {fileID: 6026363233155438272, guid: 50691df3cd5ca4ea48853fa7634faddb, type: 3}
+  destroyed: {fileID: 1141839620}
+  ballPrefab: {fileID: 6026363233155438272, guid: 50691df3cd5ca4ea48853fa7634faddb, type: 3}
+  paddleLeft: {fileID: 1446924199}
+  paddleRight: {fileID: 150134381}
 --- !u!4 &703304591
 Transform:
   m_ObjectHideFlags: 0
@@ -1037,7 +1039,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: caafd0f76f1a945b9a98a811b8bf94d3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
