@@ -7,24 +7,25 @@ using Random = UnityEngine.Random;
 
 public class BallMovement : MonoBehaviour
 {
-    private int _moveDirectionX = 1;
-    private int _moveDirectionZ = 1;
+    public int _moveDirectionX;
     private float _startZ;
     private Rigidbody _rb;
+    public static BallMovement Instance;
 
 
 
     private void Awake()
     {
+        Instance = this;
         _rb = GetComponent<Rigidbody>();
     }
 
     private void Start()
     {
-        Vector3 mov = Vector3.zero;
-        mov.x += _moveDirectionX;
-        //_startZ = Random.Range(-0.8f, 0.8f);
-        mov.z += _startZ * _moveDirectionZ ;
+        var mov = Vector3.zero;
+        mov.x = _moveDirectionX;
+        _startZ = Random.Range(-0.8f, 0.8f);
+        mov.z = _startZ;
         _rb.AddForce(mov.normalized * 1000);
     }
 
@@ -36,9 +37,10 @@ public class BallMovement : MonoBehaviour
                 _moveDirectionX *= -1;
                 var transform1 = transform;
                 _startZ = (transform1.position.z - other.transform.position.z) * 6f;
-                Vector3 mov = Vector3.zero;
-                mov.x += _moveDirectionX;
-                mov.z += _startZ * _moveDirectionZ ;
+                var mov = Vector3.zero;
+                mov.x = _moveDirectionX;
+                _startZ = Random.Range(-0.8f, 0.8f);
+                mov.z = _startZ;
                 _rb.AddForce(mov.normalized * 500);
                 return;
             case "WallRight":

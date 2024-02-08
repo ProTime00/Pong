@@ -31,8 +31,8 @@ public class PaddleMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector3 movDir = Vector3.zero;
-        float mov = _pAction.ReadValue<float>();
+        var movDir = Vector3.zero;
+        var mov = _pAction.ReadValue<float>();
         movDir.z += mov;
         transform.position += movDir;
         if (transform.position.z > 16.5 + 25)
