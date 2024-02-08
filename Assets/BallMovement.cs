@@ -4,16 +4,12 @@ using Random = UnityEngine.Random;
 
 public class BallMovement : MonoBehaviour
 {
-    [FormerlySerializedAs("_moveDirectionX")] public int moveDirectionX;
+    [FormerlySerializedAs("_moveDirectionX")] public int moveDirectionX = 1;
     private float _startZ;
     private Rigidbody _rb;
-    public static BallMovement Instance;
-
-
 
     private void Awake()
     {
-        Instance = this;
         _rb = GetComponent<Rigidbody>();
     }
 
@@ -36,7 +32,6 @@ public class BallMovement : MonoBehaviour
                 _startZ = (transform1.position.z - other.transform.position.z) * 6f;
                 var mov = Vector3.zero;
                 mov.x = moveDirectionX;
-                _startZ = Random.Range(-0.8f, 0.8f);
                 mov.z = _startZ;
                 _rb.AddForce(mov.normalized * 500);
                 return;
@@ -48,13 +43,4 @@ public class BallMovement : MonoBehaviour
                 break;
         }
     }
-
-    /*private void FixedUpdate()
-    {
-        Vector3 mov = Vector3.zero;
-        mov.x += _moveDirectionX;
-        mov.z += _startZ * _moveDirectionZ ;
-        transform.position += mov.normalized * _speed;
-        
-    }*/
 }
