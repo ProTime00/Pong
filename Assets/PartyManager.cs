@@ -7,14 +7,13 @@ public class PartyManager : MonoBehaviour
 {
     public int scoreLeft;
     public int scoreRight;
-    [FormerlySerializedAs("DESTROYED")] public GameObject destroyed;
-    [FormerlySerializedAs("BallPrefab")] public GameObject ballPrefab;
+    public GameObject ballPrefab;
     private int _wait = 150;
     private bool _scoredRight;
     private bool _scoredLeft;
     private BallMovement _ballMovement;
-    [FormerlySerializedAs("PaddleLeft")] public GameObject paddleLeft;
-    [FormerlySerializedAs("PaddleRight")] public GameObject paddleRight;
+    public GameObject paddleLeft;
+    public GameObject paddleRight;
     
     private InputAction _restart;
     private Pong _actions;
@@ -54,7 +53,9 @@ public class PartyManager : MonoBehaviour
                 _wait = 150;
                 _scoredLeft = false;
                 _ballMovement.moveDirectionX = 1;
-                destroyed = Instantiate(ballPrefab);
+                ballPrefab.gameObject.SetActive(true);
+                _ballMovement.StartBis();
+                //destroyed = Instantiate(ballPrefab);
             }
         }
 
@@ -66,7 +67,9 @@ public class PartyManager : MonoBehaviour
                 _wait = 150;
                 _scoredRight = false;
                 _ballMovement.moveDirectionX = -1;
-                destroyed = Instantiate(ballPrefab);
+                ballPrefab.gameObject.SetActive(true);
+                _ballMovement.StartBis();
+                //destroyed = Instantiate(ballPrefab);
             }
         }
     }
@@ -74,7 +77,8 @@ public class PartyManager : MonoBehaviour
     public void HandleLeftScore()
     {
         scoreLeft += 1;
-        Destroy(destroyed);
+        ballPrefab.gameObject.SetActive(false);
+        //Destroy(destroyed);
         if (scoreLeft >= 3)
         {
             HandleWinLeft();
@@ -94,7 +98,8 @@ public class PartyManager : MonoBehaviour
     public void HandleRightScore()
     {
         scoreRight += 1;
-        Destroy(destroyed);
+        ballPrefab.gameObject.SetActive(false);
+        //Destroy(destroyed);
         if (scoreRight >= 3)
         {
             HandleWinRight();

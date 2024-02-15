@@ -358,6 +358,9 @@
 "Assets/PaddleMovement.cs"
 "Assets/PartyManager.cs"
 "Assets/Pong.cs"
+"Assets/PowerUpManager.cs"
+"Assets/PowerUpScript.cs"
+"Assets/ShakeHandler.cs"
 -langversion:9.0
 
 /deterministic

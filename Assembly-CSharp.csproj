@@ -47,9 +47,12 @@
   <ItemGroup>
     <Compile Include="Assets/BallMovement.cs" />
     <Compile Include="Assets/CameraMovement.cs" />
+    <Compile Include="Assets/ShakeHandler.cs" />
     <Compile Include="Assets/PaddleMovement.cs" />
     <Compile Include="Assets/PartyManager.cs" />
     <Compile Include="Assets/Pong.cs" />
+    <Compile Include="Assets/PowerUpManager.cs" />
+    <Compile Include="Assets/PowerUpScript.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
