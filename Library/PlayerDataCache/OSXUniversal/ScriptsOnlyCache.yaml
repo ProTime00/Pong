@@ -4,6 +4,11 @@ ScriptsOnlyBuild:
     - BallMovement
     - PaddleMovement
     - PartyManager
+    - PowerUpManager
+    - PowerUpScript
+    - ShakeHandler
+    - SoundPlayer
+    - UImanager
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.Editor.InputActionEditorWindow
     - UnityEngine.InputSystem.InputActionAsset
@@ -15,10 +20,26 @@ ScriptsOnlyBuild:
     - Packages.Rider.Editor.RiderScriptEditorData
     - Packages.Rider.Editor.RiderScriptEditorPersistedState
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
   serializedClasses:
     Unity.InputSystem:
     - UnityEngine.InputSystem.InputAction
@@ -29,8 +50,30 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.PlayerInput/ControlsChangedEvent
     - UnityEngine.InputSystem.PlayerInput/DeviceLostEvent
     - UnityEngine.InputSystem.PlayerInput/DeviceRegainedEvent
+    Unity.TextMeshPro:
+    - TMPro.FaceInfo_Legacy
+    - TMPro.FontAssetCreationSettings
+    - TMPro.KerningTable
+    - TMPro.TMP_Character
+    - TMPro.TMP_FontFeatureTable
+    - TMPro.TMP_FontWeightPair
+    - TMPro.TMP_GlyphAdjustmentRecord
+    - TMPro.TMP_GlyphPairAdjustmentRecord
+    - TMPro.TMP_GlyphValueRecord
+    - TMPro.TMP_Sprite
+    - TMPro.TMP_SpriteCharacter
+    - TMPro.TMP_SpriteGlyph
+    - TMPro.TMP_Style
+    - TMPro.VertexGradient
     UnityEngine.CoreModule:
     - UnityEngine.Events.PersistentCallGroup
+    UnityEngine.TextCoreFontEngineModule:
+    - UnityEngine.TextCore.FaceInfo
+    - UnityEngine.TextCore.Glyph
+    - UnityEngine.TextCore.GlyphMetrics
+    - UnityEngine.TextCore.GlyphRect
+    UnityEngine.UI:
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve: []
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
@@ -52,11 +95,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -69,18 +118,54 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1934}
     - Class: 114
+      Script: {instanceID: 2216}
+    - Class: 114
+      Script: {instanceID: 2690}
+    - Class: 114
+      Script: {instanceID: 2902}
+    - Class: 114
       Script: {instanceID: 3054}
     - Class: 114
       Script: {instanceID: 3892}
     - Class: 114
+      Script: {instanceID: 4334}
+    - Class: 114
+      Script: {instanceID: 4610}
+    - Class: 114
       Script: {instanceID: 5020}
+    - Class: 114
+      Script: {instanceID: 5374}
+    - Class: 114
+      Script: {instanceID: 5968}
+    - Class: 114
+      Script: {instanceID: 6136}
+    - Class: 114
+      Script: {instanceID: 6490}
+    - Class: 114
+      Script: {instanceID: 25008}
+    - Class: 114
+      Script: {instanceID: 25878}
+    - Class: 114
+      Script: {instanceID: 25934}
+    - Class: 114
+      Script: {instanceID: 35236}
+    - Class: 114
+      Script: {instanceID: 36280}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 134
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -157,7 +242,7 @@ ScriptsOnlyBuild:
     className: UnityOnMouseExitMessageListener
   - hash:
       serializedVersion: 2
-      Hash: e45440dcc3a8baf39a87abb092f04130
+      Hash: 4c7ce0b1359ab4c98538956d4c13d2ac
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PaddleMovement
@@ -307,7 +392,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: 1cc7a7359f37701fd457316686010f43
+      Hash: e4d034293ca313e61b739f58f6bd6ab7
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: BallMovement
@@ -619,7 +704,7 @@ ScriptsOnlyBuild:
     className: MacroScriptableObject
   - hash:
       serializedVersion: 2
-      Hash: 0760250c85085cf601e9bc936843b196
+      Hash: 32ea02073bad7fbcc48f9708e39571b1
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: PartyManager
@@ -1109,6 +1194,36 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: 629cf9800f4ad1f8d9748676b435285b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ShakeHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 7cd34583b573c5161c591e1595fb6c53
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PowerUpManager
+  - hash:
+      serializedVersion: 2
+      Hash: c046466e5feb970f12e7b7c574882000
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PowerUpScript
+  - hash:
+      serializedVersion: 2
+      Hash: 9dedf9147956535473aaa9165aadbb00
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SoundPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: 9bbbb53e6809f4a702833a6dd717fe25
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: UImanager
   platform: 2
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

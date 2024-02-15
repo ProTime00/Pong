@@ -1,15 +1,10 @@
-//Created by Arman Awan - ArmanDoesStuff 2018
-
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class ShakeHandler : MonoBehaviour {
 
     #region variables
-    public bool camShakeAcive = true; //on or off
+    public bool camShakeActive = true; //on or off
     public static ShakeHandler ShakeHandlerInstance;
     [Range(0, 1)]
     [SerializeField] float trauma;
@@ -62,7 +57,7 @@ public class ShakeHandler : MonoBehaviour {
     
     private void Update ()
     {
-        if (camShakeAcive && Trauma > 0)
+        if (camShakeActive && Trauma > 0)
         {
             //increase the time counter (how fast the position changes) based off the traumaMult and some root of the Trauma
             _timeCounter += Time.deltaTime * Mathf.Pow(Trauma,0.3f) * traumaMult;

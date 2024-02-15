@@ -25,7 +25,7 @@ public class BallMovement : MonoBehaviour
         
         var mov = Vector3.zero;
         mov.x = moveDirectionX;
-        //_startZ = Random.Range(-0.8f, 0.8f);
+        _startZ = Random.Range(-0.8f, 0.8f);
         mov.z = _startZ;
         _rb.AddForce(mov.normalized * 1000);
     }
@@ -35,7 +35,7 @@ public class BallMovement : MonoBehaviour
         transform.position = _startPos;
         var mov = Vector3.zero;
         mov.x = moveDirectionX;
-        //_startZ = Random.Range(-0.8f, 0.8f);
+        _startZ = Random.Range(-0.8f, 0.8f);
         mov.z = _startZ;
         _rb.AddForce(mov.normalized * 1000);
     }
@@ -53,7 +53,7 @@ public class BallMovement : MonoBehaviour
                 {
                     _startZ = 0;
                 }
-
+                
                 _leftShooted = other.gameObject.name switch
                 {
                     "PaddleLeft" => true,
@@ -62,7 +62,7 @@ public class BallMovement : MonoBehaviour
                 };
                 mov.x = moveDirectionX;
                 mov.z = _startZ;
-                //speed *= 1.05f;
+                speed *= 1.05f;
                 Math.Clamp(speed, 500f, 8000f);
                 _rb.AddForce(mov.normalized * speed);
                 return;

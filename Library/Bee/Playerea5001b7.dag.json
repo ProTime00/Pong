@@ -344,7 +344,11 @@
         336,
         337,
         338,
-        339
+        339,
+        340,
+        341,
+        342,
+        343
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -410,6 +414,30 @@
       "DebugActionIndex": 5
     },
     {
+      "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/resources.assets",
+      "DisplayName": "Copying resources.assets",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/OSXUniversal/Data/resources.assets"
+      ],
+      "Outputs": [
+        "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/resources.assets"
+      ],
+      "DebugActionIndex": 6
+    },
+    {
+      "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/resources.assets.resS",
+      "DisplayName": "Copying resources.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/OSXUniversal/Data/resources.assets.resS"
+      ],
+      "Outputs": [
+        "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/resources.assets.resS"
+      ],
+      "DebugActionIndex": 7
+    },
+    {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Resources/unity_builtin_extra",
       "DisplayName": "Copying unity_builtin_extra",
       "ActionType": "CopyFiles",
@@ -419,7 +447,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Resources/unity_builtin_extra"
       ],
-      "DebugActionIndex": 6
+      "DebugActionIndex": 8
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json",
@@ -431,7 +459,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json"
       ],
-      "DebugActionIndex": 7
+      "DebugActionIndex": 9
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/ScriptingAssemblies.json",
@@ -443,7 +471,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/ScriptingAssemblies.json"
       ],
-      "DebugActionIndex": 8
+      "DebugActionIndex": 10
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/sharedassets0.assets",
@@ -455,20 +483,44 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/sharedassets0.assets"
       ],
-      "DebugActionIndex": 9
+      "DebugActionIndex": 11
+    },
+    {
+      "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/sharedassets0.assets.resS",
+      "DisplayName": "Copying sharedassets0.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/OSXUniversal/Data/sharedassets0.assets.resS"
+      ],
+      "Outputs": [
+        "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/sharedassets0.assets.resS"
+      ],
+      "DebugActionIndex": 12
+    },
+    {
+      "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/sharedassets0.resource",
+      "DisplayName": "Copying sharedassets0.resource",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/OSXUniversal/Data/sharedassets0.resource"
+      ],
+      "Outputs": [
+        "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/sharedassets0.resource"
+      ],
+      "DebugActionIndex": 13
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/boot.config_l6pt.info",
       "DisplayName": "Writing boot.config_l6pt.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 15610,
+      "PayloadLength": 15874,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/boot.config_l6pt.info"
       ],
-      "DebugActionIndex": 10
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "AddBootConfigGUID Library/Bee/artifacts/MacStandalonePlayerBuildProgram/boot.config",
@@ -482,10 +534,14 @@
         "Library/PlayerDataCache/OSXUniversal/Data/globalgamemanagers.assets.resS",
         "Library/PlayerDataCache/OSXUniversal/Data/level0",
         "Library/PlayerDataCache/OSXUniversal/Data/level0.resS",
+        "Library/PlayerDataCache/OSXUniversal/Data/resources.assets",
+        "Library/PlayerDataCache/OSXUniversal/Data/resources.assets.resS",
         "Library/PlayerDataCache/OSXUniversal/Data/Resources/unity_builtin_extra",
         "Library/PlayerDataCache/OSXUniversal/Data/RuntimeInitializeOnLoads.json",
         "Library/PlayerDataCache/OSXUniversal/Data/ScriptingAssemblies.json",
         "Library/PlayerDataCache/OSXUniversal/Data/sharedassets0.assets",
+        "Library/PlayerDataCache/OSXUniversal/Data/sharedassets0.assets.resS",
+        "Library/PlayerDataCache/OSXUniversal/Data/sharedassets0.resource",
         "/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
         "/Applications/Unity/Hub/Editor/2022.3.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll",
@@ -631,12 +687,12 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/boot.config"
       ],
       "ToBuildDependencies": [
-        10
+        14
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 11
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/boot.config",
@@ -649,9 +705,9 @@
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/boot.config"
       ],
       "ToBuildDependencies": [
-        11
+        15
       ],
-      "DebugActionIndex": 12
+      "DebugActionIndex": 16
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll",
@@ -663,7 +719,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll"
       ],
-      "DebugActionIndex": 13
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll",
@@ -675,7 +731,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll"
       ],
-      "DebugActionIndex": 14
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -687,7 +743,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.AccessibilityModule.dll"
       ],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -699,7 +755,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.AndroidJNIModule.dll"
       ],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll",
@@ -711,7 +767,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.AnimationModule.dll"
       ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -723,7 +779,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.AssetBundleModule.dll"
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll",
@@ -735,7 +791,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.AudioModule.dll"
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll",
@@ -747,7 +803,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.ClothModule.dll"
       ],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -759,7 +815,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.ClusterInputModule.dll"
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -771,7 +827,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.ClusterRendererModule.dll"
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.ContentLoadModule.dll",
@@ -783,7 +839,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.ContentLoadModule.dll"
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll",
@@ -795,7 +851,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.CoreModule.dll"
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -807,7 +863,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.CrashReportingModule.dll"
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -819,7 +875,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.DSPGraphModule.dll"
       ],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll",
@@ -831,7 +887,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.DirectorModule.dll"
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.GIModule.dll",
@@ -843,7 +899,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.GIModule.dll"
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -855,7 +911,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.GameCenterModule.dll"
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll",
@@ -867,7 +923,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.GridModule.dll"
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -879,7 +935,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.HotReloadModule.dll"
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -891,7 +947,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.IMGUIModule.dll"
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -903,7 +959,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.ImageConversionModule.dll"
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -915,7 +971,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.InputLegacyModule.dll"
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll",
@@ -927,7 +983,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.InputModule.dll"
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -939,7 +995,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.JSONSerializeModule.dll"
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -951,7 +1007,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.LocalizationModule.dll"
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -963,7 +1019,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.ParticleSystemModule.dll"
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -975,7 +1031,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.PerformanceReportingModule.dll"
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -987,7 +1043,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.Physics2DModule.dll"
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -999,7 +1055,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.PhysicsModule.dll"
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -1011,7 +1067,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.ProfilerModule.dll"
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.PropertiesModule.dll",
@@ -1023,7 +1079,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.PropertiesModule.dll"
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -1035,7 +1091,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -1047,7 +1103,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.ScreenCaptureModule.dll"
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -1059,7 +1115,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.SharedInternalsModule.dll"
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -1071,7 +1127,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.SpriteMaskModule.dll"
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -1083,7 +1139,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.SpriteShapeModule.dll"
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll",
@@ -1095,7 +1151,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.StreamingModule.dll"
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -1107,7 +1163,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.SubstanceModule.dll"
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -1119,7 +1175,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.SubsystemsModule.dll"
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll",
@@ -1131,7 +1187,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.TLSModule.dll"
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll",
@@ -1143,7 +1199,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.TerrainModule.dll"
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -1155,7 +1211,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -1167,7 +1223,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -1179,7 +1235,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -1191,7 +1247,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.TextRenderingModule.dll"
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll",
@@ -1203,7 +1259,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.TilemapModule.dll"
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -1215,7 +1271,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UIElementsModule.dll"
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll",
@@ -1227,7 +1283,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UIModule.dll"
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll",
@@ -1239,7 +1295,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UmbraModule.dll"
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
@@ -1251,7 +1307,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -1263,7 +1319,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -1275,7 +1331,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UnityConnectModule.dll"
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -1287,7 +1343,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UnityCurlModule.dll"
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -1299,7 +1355,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -1311,7 +1367,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -1323,7 +1379,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -1335,7 +1391,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestModule.dll"
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -1347,7 +1403,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -1359,7 +1415,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll",
@@ -1371,7 +1427,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.VFXModule.dll"
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll",
@@ -1383,7 +1439,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.VRModule.dll"
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -1395,7 +1451,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.VehiclesModule.dll"
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll",
@@ -1407,7 +1463,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.VideoModule.dll"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -1419,7 +1475,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.VirtualTexturingModule.dll"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll",
@@ -1431,7 +1487,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.WindModule.dll"
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll",
@@ -1443,7 +1499,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.XRModule.dll"
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.dll",
@@ -1455,7 +1511,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.dll"
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll",
@@ -1467,7 +1523,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/Assembly-CSharp.dll"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/Unity.Timeline.dll",
@@ -1479,7 +1535,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/Unity.InputSystem.dll",
@@ -1491,7 +1547,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/Unity.InputSystem.dll"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/Unity.InputSystem.ForUI.dll",
@@ -1503,7 +1559,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/Unity.InputSystem.ForUI.dll"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll",
@@ -1515,7 +1571,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll",
@@ -1527,7 +1583,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Core.dll",
@@ -1539,7 +1595,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/Unity.VisualScripting.State.dll",
@@ -1551,7 +1607,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -1563,7 +1619,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -1575,7 +1631,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/netstandard.dll",
@@ -1587,7 +1643,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/Mono.Security.dll",
@@ -1599,7 +1655,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll",
@@ -1611,7 +1667,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Configuration.dll",
@@ -1623,7 +1679,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Core.dll",
@@ -1635,7 +1691,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Data.DataSetExtensions.dll",
@@ -1647,7 +1703,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Data.dll",
@@ -1659,7 +1715,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Drawing.dll",
@@ -1671,7 +1727,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.EnterpriseServices.dll",
@@ -1683,7 +1739,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -1695,7 +1751,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.IO.Compression.dll",
@@ -1707,7 +1763,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Net.Http.dll",
@@ -1719,7 +1775,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Numerics.dll",
@@ -1731,7 +1787,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll",
@@ -1743,7 +1799,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Security.dll",
@@ -1755,7 +1811,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.ServiceModel.Internals.dll",
@@ -1767,7 +1823,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Transactions.dll",
@@ -1779,7 +1835,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll",
@@ -1791,7 +1847,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Xml.dll",
@@ -1803,7 +1859,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.dll",
@@ -1815,7 +1871,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/mscorlib.dll",
@@ -1827,20 +1883,20 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AIModule-FeaturesChecked.txt_r425.info",
       "DisplayName": "Writing UnityEngine.AIModule-FeaturesChecked.txt_r425.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 15811,
+      "PayloadOffset": 16075,
       "PayloadLength": 964,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.AIModule-FeaturesChecked.txt_r425.info"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AIModule-FeaturesChecked.txt",
@@ -1894,25 +1950,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AIModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        111
+        115
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ARModule-FeaturesChecked.txt_k4j9.info",
       "DisplayName": "Writing UnityEngine.ARModule-FeaturesChecked.txt_k4j9.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 16893,
+      "PayloadOffset": 17157,
       "PayloadLength": 964,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.ARModule-FeaturesChecked.txt_k4j9.info"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ARModule-FeaturesChecked.txt",
@@ -1966,25 +2022,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ARModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        113
+        117
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AccessibilityModule-FeaturesChecked.txt_96g1.info",
       "DisplayName": "Writing UnityEngine.AccessibilityModule-FeaturesChecked.txt_96g1.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 17986,
+      "PayloadOffset": 18250,
       "PayloadLength": 986,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.AccessibilityModule-FeaturesChecked.txt_96g1.info"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AccessibilityModule-FeaturesChecked.txt",
@@ -2038,25 +2094,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AccessibilityModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        115
+        119
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AndroidJNIModule-FeaturesChecked.txt_llt1.info",
       "DisplayName": "Writing UnityEngine.AndroidJNIModule-FeaturesChecked.txt_llt1.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 19098,
+      "PayloadOffset": 19362,
       "PayloadLength": 980,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.AndroidJNIModule-FeaturesChecked.txt_llt1.info"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt",
@@ -2110,25 +2166,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AndroidJNIModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        117
+        121
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AnimationModule-FeaturesChecked.txt_7c2x.info",
       "DisplayName": "Writing UnityEngine.AnimationModule-FeaturesChecked.txt_7c2x.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 20203,
+      "PayloadOffset": 20467,
       "PayloadLength": 978,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.AnimationModule-FeaturesChecked.txt_7c2x.info"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AnimationModule-FeaturesChecked.txt",
@@ -2182,25 +2238,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AnimationModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        119
+        123
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AssetBundleModule-FeaturesChecked.txt_tbsh.info",
       "DisplayName": "Writing UnityEngine.AssetBundleModule-FeaturesChecked.txt_tbsh.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 21308,
+      "PayloadOffset": 21572,
       "PayloadLength": 982,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.AssetBundleModule-FeaturesChecked.txt_tbsh.info"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AssetBundleModule-FeaturesChecked.txt",
@@ -2254,25 +2310,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AssetBundleModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        121
+        125
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.AudioModule-FeaturesChecked.txt_twl2.info",
       "DisplayName": "Writing UnityEngine.AudioModule-FeaturesChecked.txt_twl2.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 22411,
+      "PayloadOffset": 22675,
       "PayloadLength": 970,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.AudioModule-FeaturesChecked.txt_twl2.info"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AudioModule-FeaturesChecked.txt",
@@ -2326,25 +2382,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.AudioModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        123
+        127
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ClothModule-FeaturesChecked.txt_9hky.info",
       "DisplayName": "Writing UnityEngine.ClothModule-FeaturesChecked.txt_9hky.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 23502,
+      "PayloadOffset": 23766,
       "PayloadLength": 970,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.ClothModule-FeaturesChecked.txt_9hky.info"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClothModule-FeaturesChecked.txt",
@@ -2398,25 +2454,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClothModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        125
+        129
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ClusterInputModule-FeaturesChecked.txt_3bhx.info",
       "DisplayName": "Writing UnityEngine.ClusterInputModule-FeaturesChecked.txt_3bhx.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 24600,
+      "PayloadOffset": 24864,
       "PayloadLength": 984,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.ClusterInputModule-FeaturesChecked.txt_3bhx.info"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClusterInputModule-FeaturesChecked.txt",
@@ -2470,25 +2526,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClusterInputModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        127
+        131
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ClusterRendererModule-FeaturesChecked.txt_cqm3.info",
       "DisplayName": "Writing UnityEngine.ClusterRendererModule-FeaturesChecked.txt_cqm3.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 25715,
+      "PayloadOffset": 25979,
       "PayloadLength": 990,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.ClusterRendererModule-FeaturesChecked.txt_cqm3.info"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClusterRendererModule-FeaturesChecked.txt",
@@ -2542,25 +2598,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ClusterRendererModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        129
+        133
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ContentLoadModule-FeaturesChecked.txt_uy7s.info",
       "DisplayName": "Writing UnityEngine.ContentLoadModule-FeaturesChecked.txt_uy7s.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 26832,
+      "PayloadOffset": 27096,
       "PayloadLength": 982,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.ContentLoadModule-FeaturesChecked.txt_uy7s.info"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ContentLoadModule-FeaturesChecked.txt",
@@ -2614,25 +2670,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ContentLoadModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        131
+        135
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.CoreModule-FeaturesChecked.txt_ikd0.info",
       "DisplayName": "Writing UnityEngine.CoreModule-FeaturesChecked.txt_ikd0.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 27934,
+      "PayloadOffset": 28198,
       "PayloadLength": 968,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.CoreModule-FeaturesChecked.txt_ikd0.info"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.CoreModule-FeaturesChecked.txt",
@@ -2686,25 +2742,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.CoreModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        133
+        137
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.CrashReportingModule-FeaturesChecked.txt_yyky.info",
       "DisplayName": "Writing UnityEngine.CrashReportingModule-FeaturesChecked.txt_yyky.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 29032,
+      "PayloadOffset": 29296,
       "PayloadLength": 988,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.CrashReportingModule-FeaturesChecked.txt_yyky.info"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.CrashReportingModule-FeaturesChecked.txt",
@@ -2758,25 +2814,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.CrashReportingModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        135
+        139
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.DSPGraphModule-FeaturesChecked.txt_wsag.info",
       "DisplayName": "Writing UnityEngine.DSPGraphModule-FeaturesChecked.txt_wsag.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 30144,
+      "PayloadOffset": 30408,
       "PayloadLength": 976,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.DSPGraphModule-FeaturesChecked.txt_wsag.info"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.DSPGraphModule-FeaturesChecked.txt",
@@ -2830,25 +2886,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.DSPGraphModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        137
+        141
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.DirectorModule-FeaturesChecked.txt_fk7w.info",
       "DisplayName": "Writing UnityEngine.DirectorModule-FeaturesChecked.txt_fk7w.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 31244,
+      "PayloadOffset": 31508,
       "PayloadLength": 976,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.DirectorModule-FeaturesChecked.txt_fk7w.info"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.DirectorModule-FeaturesChecked.txt",
@@ -2902,25 +2958,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.DirectorModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        139
+        143
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.GIModule-FeaturesChecked.txt_535t.info",
       "DisplayName": "Writing UnityEngine.GIModule-FeaturesChecked.txt_535t.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 32338,
+      "PayloadOffset": 32602,
       "PayloadLength": 964,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.GIModule-FeaturesChecked.txt_535t.info"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GIModule-FeaturesChecked.txt",
@@ -2974,25 +3030,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GIModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        141
+        145
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.GameCenterModule-FeaturesChecked.txt_a812.info",
       "DisplayName": "Writing UnityEngine.GameCenterModule-FeaturesChecked.txt_a812.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 33428,
+      "PayloadOffset": 33692,
       "PayloadLength": 980,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.GameCenterModule-FeaturesChecked.txt_a812.info"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GameCenterModule-FeaturesChecked.txt",
@@ -3046,25 +3102,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GameCenterModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        143
+        147
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.GridModule-FeaturesChecked.txt_dzjq.info",
       "DisplayName": "Writing UnityEngine.GridModule-FeaturesChecked.txt_dzjq.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 34528,
+      "PayloadOffset": 34792,
       "PayloadLength": 968,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.GridModule-FeaturesChecked.txt_dzjq.info"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GridModule-FeaturesChecked.txt",
@@ -3118,25 +3174,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.GridModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        145
+        149
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.HotReloadModule-FeaturesChecked.txt_5leg.info",
       "DisplayName": "Writing UnityEngine.HotReloadModule-FeaturesChecked.txt_5leg.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 35621,
+      "PayloadOffset": 35885,
       "PayloadLength": 978,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.HotReloadModule-FeaturesChecked.txt_5leg.info"
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.HotReloadModule-FeaturesChecked.txt",
@@ -3190,25 +3246,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.HotReloadModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        147
+        151
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.IMGUIModule-FeaturesChecked.txt_at7m.info",
       "DisplayName": "Writing UnityEngine.IMGUIModule-FeaturesChecked.txt_at7m.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 36720,
+      "PayloadOffset": 36984,
       "PayloadLength": 970,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.IMGUIModule-FeaturesChecked.txt_at7m.info"
       ],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt",
@@ -3262,25 +3318,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.IMGUIModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        149
+        153
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ImageConversionModule-FeaturesChecked.txt_4svn.info",
       "DisplayName": "Writing UnityEngine.ImageConversionModule-FeaturesChecked.txt_4svn.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 37821,
+      "PayloadOffset": 38085,
       "PayloadLength": 990,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.ImageConversionModule-FeaturesChecked.txt_4svn.info"
       ],
-      "DebugActionIndex": 151
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ImageConversionModule-FeaturesChecked.txt",
@@ -3334,25 +3390,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ImageConversionModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        151
+        155
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 152
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.InputLegacyModule-FeaturesChecked.txt_q0vy.info",
       "DisplayName": "Writing UnityEngine.InputLegacyModule-FeaturesChecked.txt_q0vy.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 38938,
+      "PayloadOffset": 39202,
       "PayloadLength": 982,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.InputLegacyModule-FeaturesChecked.txt_q0vy.info"
       ],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt",
@@ -3406,25 +3462,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.InputLegacyModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        153
+        157
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 154
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.InputModule-FeaturesChecked.txt_dp83.info",
       "DisplayName": "Writing UnityEngine.InputModule-FeaturesChecked.txt_dp83.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 40041,
+      "PayloadOffset": 40305,
       "PayloadLength": 970,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.InputModule-FeaturesChecked.txt_dp83.info"
       ],
-      "DebugActionIndex": 155
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.InputModule-FeaturesChecked.txt",
@@ -3478,25 +3534,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.InputModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        155
+        159
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 156
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.JSONSerializeModule-FeaturesChecked.txt_v4ys.info",
       "DisplayName": "Writing UnityEngine.JSONSerializeModule-FeaturesChecked.txt_v4ys.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 41140,
+      "PayloadOffset": 41404,
       "PayloadLength": 986,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.JSONSerializeModule-FeaturesChecked.txt_v4ys.info"
       ],
-      "DebugActionIndex": 157
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt",
@@ -3550,25 +3606,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.JSONSerializeModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        157
+        161
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 158
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.LocalizationModule-FeaturesChecked.txt_kuvr.info",
       "DisplayName": "Writing UnityEngine.LocalizationModule-FeaturesChecked.txt_kuvr.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 42254,
+      "PayloadOffset": 42518,
       "PayloadLength": 984,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.LocalizationModule-FeaturesChecked.txt_kuvr.info"
       ],
-      "DebugActionIndex": 159
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.LocalizationModule-FeaturesChecked.txt",
@@ -3622,25 +3678,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.LocalizationModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        159
+        163
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 160
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ParticleSystemModule-FeaturesChecked.txt_khwv.info",
       "DisplayName": "Writing UnityEngine.ParticleSystemModule-FeaturesChecked.txt_khwv.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 43368,
+      "PayloadOffset": 43632,
       "PayloadLength": 988,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.ParticleSystemModule-FeaturesChecked.txt_khwv.info"
       ],
-      "DebugActionIndex": 161
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ParticleSystemModule-FeaturesChecked.txt",
@@ -3694,25 +3750,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ParticleSystemModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        161
+        165
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 162
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.PerformanceReportingModule-FeaturesChecked.txt_dxcc.info",
       "DisplayName": "Writing UnityEngine.PerformanceReportingModule-FeaturesChecked.txt_dxcc.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 44492,
+      "PayloadOffset": 44756,
       "PayloadLength": 1000,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.PerformanceReportingModule-FeaturesChecked.txt_dxcc.info"
       ],
-      "DebugActionIndex": 163
+      "DebugActionIndex": 167
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.PerformanceReportingModule-FeaturesChecked.txt",
@@ -3766,25 +3822,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.PerformanceReportingModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        163
+        167
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 164
+      "DebugActionIndex": 168
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.Physics2DModule-FeaturesChecked.txt_sxp3.info",
       "DisplayName": "Writing UnityEngine.Physics2DModule-FeaturesChecked.txt_sxp3.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 45617,
+      "PayloadOffset": 45881,
       "PayloadLength": 978,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.Physics2DModule-FeaturesChecked.txt_sxp3.info"
       ],
-      "DebugActionIndex": 165
+      "DebugActionIndex": 169
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt",
@@ -3838,25 +3894,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.Physics2DModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        165
+        169
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 166
+      "DebugActionIndex": 170
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.PhysicsModule-FeaturesChecked.txt_26rb.info",
       "DisplayName": "Writing UnityEngine.PhysicsModule-FeaturesChecked.txt_26rb.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 46718,
+      "PayloadOffset": 46982,
       "PayloadLength": 974,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.PhysicsModule-FeaturesChecked.txt_26rb.info"
       ],
-      "DebugActionIndex": 167
+      "DebugActionIndex": 171
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt",
@@ -3910,25 +3966,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.PhysicsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        167
+        171
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 168
+      "DebugActionIndex": 172
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ProfilerModule-FeaturesChecked.txt_wfeu.info",
       "DisplayName": "Writing UnityEngine.ProfilerModule-FeaturesChecked.txt_wfeu.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 47816,
+      "PayloadOffset": 48080,
       "PayloadLength": 976,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.ProfilerModule-FeaturesChecked.txt_wfeu.info"
       ],
-      "DebugActionIndex": 169
+      "DebugActionIndex": 173
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ProfilerModule-FeaturesChecked.txt",
@@ -3982,25 +4038,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ProfilerModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        169
+        173
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 170
+      "DebugActionIndex": 174
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.PropertiesModule-FeaturesChecked.txt_ar7j.info",
       "DisplayName": "Writing UnityEngine.PropertiesModule-FeaturesChecked.txt_ar7j.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 48918,
+      "PayloadOffset": 49182,
       "PayloadLength": 980,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.PropertiesModule-FeaturesChecked.txt_ar7j.info"
       ],
-      "DebugActionIndex": 171
+      "DebugActionIndex": 175
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.PropertiesModule-FeaturesChecked.txt",
@@ -4054,25 +4110,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.PropertiesModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        171
+        175
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 172
+      "DebugActionIndex": 176
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt_5gns.info",
       "DisplayName": "Writing UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt_5gns.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 50055,
+      "PayloadOffset": 50319,
       "PayloadLength": 1042,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt_5gns.info"
       ],
-      "DebugActionIndex": 173
+      "DebugActionIndex": 177
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt",
@@ -4126,25 +4182,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        173
+        177
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 174
+      "DebugActionIndex": 178
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.ScreenCaptureModule-FeaturesChecked.txt_t5mg.info",
       "DisplayName": "Writing UnityEngine.ScreenCaptureModule-FeaturesChecked.txt_t5mg.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 51226,
+      "PayloadOffset": 51490,
       "PayloadLength": 986,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.ScreenCaptureModule-FeaturesChecked.txt_t5mg.info"
       ],
-      "DebugActionIndex": 175
+      "DebugActionIndex": 179
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ScreenCaptureModule-FeaturesChecked.txt",
@@ -4198,25 +4254,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.ScreenCaptureModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        175
+        179
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 176
+      "DebugActionIndex": 180
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SharedInternalsModule-FeaturesChecked.txt_ktjz.info",
       "DisplayName": "Writing UnityEngine.SharedInternalsModule-FeaturesChecked.txt_ktjz.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 52343,
+      "PayloadOffset": 52607,
       "PayloadLength": 990,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.SharedInternalsModule-FeaturesChecked.txt_ktjz.info"
       ],
-      "DebugActionIndex": 177
+      "DebugActionIndex": 181
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt",
@@ -4270,25 +4326,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SharedInternalsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        177
+        181
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 178
+      "DebugActionIndex": 182
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SpriteMaskModule-FeaturesChecked.txt_4jzq.info",
       "DisplayName": "Writing UnityEngine.SpriteMaskModule-FeaturesChecked.txt_4jzq.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 53459,
+      "PayloadOffset": 53723,
       "PayloadLength": 980,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.SpriteMaskModule-FeaturesChecked.txt_4jzq.info"
       ],
-      "DebugActionIndex": 179
+      "DebugActionIndex": 183
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SpriteMaskModule-FeaturesChecked.txt",
@@ -4342,25 +4398,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SpriteMaskModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        179
+        183
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 180
+      "DebugActionIndex": 184
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SpriteShapeModule-FeaturesChecked.txt_rm0h.info",
       "DisplayName": "Writing UnityEngine.SpriteShapeModule-FeaturesChecked.txt_rm0h.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 54566,
+      "PayloadOffset": 54830,
       "PayloadLength": 982,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.SpriteShapeModule-FeaturesChecked.txt_rm0h.info"
       ],
-      "DebugActionIndex": 181
+      "DebugActionIndex": 185
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt",
@@ -4414,25 +4470,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SpriteShapeModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        181
+        185
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 182
+      "DebugActionIndex": 186
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.StreamingModule-FeaturesChecked.txt_5cy3.info",
       "DisplayName": "Writing UnityEngine.StreamingModule-FeaturesChecked.txt_5cy3.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 55673,
+      "PayloadOffset": 55937,
       "PayloadLength": 978,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.StreamingModule-FeaturesChecked.txt_5cy3.info"
       ],
-      "DebugActionIndex": 183
+      "DebugActionIndex": 187
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.StreamingModule-FeaturesChecked.txt",
@@ -4486,25 +4542,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.StreamingModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        183
+        187
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 184
+      "DebugActionIndex": 188
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SubstanceModule-FeaturesChecked.txt_732r.info",
       "DisplayName": "Writing UnityEngine.SubstanceModule-FeaturesChecked.txt_732r.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 56776,
+      "PayloadOffset": 57040,
       "PayloadLength": 978,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.SubstanceModule-FeaturesChecked.txt_732r.info"
       ],
-      "DebugActionIndex": 185
+      "DebugActionIndex": 189
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SubstanceModule-FeaturesChecked.txt",
@@ -4558,25 +4614,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SubstanceModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        185
+        189
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 186
+      "DebugActionIndex": 190
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.SubsystemsModule-FeaturesChecked.txt_jhyo.info",
       "DisplayName": "Writing UnityEngine.SubsystemsModule-FeaturesChecked.txt_jhyo.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 57880,
+      "PayloadOffset": 58144,
       "PayloadLength": 980,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.SubsystemsModule-FeaturesChecked.txt_jhyo.info"
       ],
-      "DebugActionIndex": 187
+      "DebugActionIndex": 191
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt",
@@ -4630,25 +4686,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.SubsystemsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        187
+        191
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 188
+      "DebugActionIndex": 192
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TLSModule-FeaturesChecked.txt_2rm9.info",
       "DisplayName": "Writing UnityEngine.TLSModule-FeaturesChecked.txt_2rm9.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 58979,
+      "PayloadOffset": 59243,
       "PayloadLength": 966,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.TLSModule-FeaturesChecked.txt_2rm9.info"
       ],
-      "DebugActionIndex": 189
+      "DebugActionIndex": 193
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TLSModule-FeaturesChecked.txt",
@@ -4702,25 +4758,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TLSModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        189
+        193
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 190
+      "DebugActionIndex": 194
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TerrainModule-FeaturesChecked.txt_wj25.info",
       "DisplayName": "Writing UnityEngine.TerrainModule-FeaturesChecked.txt_wj25.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 60068,
+      "PayloadOffset": 60332,
       "PayloadLength": 974,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.TerrainModule-FeaturesChecked.txt_wj25.info"
       ],
-      "DebugActionIndex": 191
+      "DebugActionIndex": 195
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TerrainModule-FeaturesChecked.txt",
@@ -4774,25 +4830,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TerrainModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        191
+        195
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 192
+      "DebugActionIndex": 196
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt_1c3a.info",
       "DisplayName": "Writing UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt_1c3a.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 61172,
+      "PayloadOffset": 61436,
       "PayloadLength": 988,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt_1c3a.info"
       ],
-      "DebugActionIndex": 193
+      "DebugActionIndex": 197
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt",
@@ -4846,25 +4902,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TerrainPhysicsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        193
+        197
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 194
+      "DebugActionIndex": 198
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt_gk3c.info",
       "DisplayName": "Writing UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt_gk3c.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 62294,
+      "PayloadOffset": 62558,
       "PayloadLength": 996,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt_gk3c.info"
       ],
-      "DebugActionIndex": 195
+      "DebugActionIndex": 199
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt",
@@ -4918,25 +4974,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextCoreFontEngineModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        195
+        199
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 196
+      "DebugActionIndex": 200
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt_qdwu.info",
       "DisplayName": "Writing UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt_qdwu.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 63424,
+      "PayloadOffset": 63688,
       "PayloadLength": 996,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt_qdwu.info"
       ],
-      "DebugActionIndex": 197
+      "DebugActionIndex": 201
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt",
@@ -4990,25 +5046,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextCoreTextEngineModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        197
+        201
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 198
+      "DebugActionIndex": 202
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TextRenderingModule-FeaturesChecked.txt_i1ny.info",
       "DisplayName": "Writing UnityEngine.TextRenderingModule-FeaturesChecked.txt_i1ny.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 64549,
+      "PayloadOffset": 64813,
       "PayloadLength": 986,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.TextRenderingModule-FeaturesChecked.txt_i1ny.info"
       ],
-      "DebugActionIndex": 199
+      "DebugActionIndex": 203
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt",
@@ -5062,25 +5118,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TextRenderingModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        199
+        203
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 200
+      "DebugActionIndex": 204
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.TilemapModule-FeaturesChecked.txt_dq0e.info",
       "DisplayName": "Writing UnityEngine.TilemapModule-FeaturesChecked.txt_dq0e.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 65658,
+      "PayloadOffset": 65922,
       "PayloadLength": 974,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.TilemapModule-FeaturesChecked.txt_dq0e.info"
       ],
-      "DebugActionIndex": 201
+      "DebugActionIndex": 205
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TilemapModule-FeaturesChecked.txt",
@@ -5134,25 +5190,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.TilemapModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        201
+        205
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 202
+      "DebugActionIndex": 206
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UIElementsModule-FeaturesChecked.txt_yri2.info",
       "DisplayName": "Writing UnityEngine.UIElementsModule-FeaturesChecked.txt_yri2.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 66758,
+      "PayloadOffset": 67022,
       "PayloadLength": 980,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UIElementsModule-FeaturesChecked.txt_yri2.info"
       ],
-      "DebugActionIndex": 203
+      "DebugActionIndex": 207
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt",
@@ -5206,25 +5262,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UIElementsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        203
+        207
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 204
+      "DebugActionIndex": 208
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UIModule-FeaturesChecked.txt_7nub.info",
       "DisplayName": "Writing UnityEngine.UIModule-FeaturesChecked.txt_7nub.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 67856,
+      "PayloadOffset": 68120,
       "PayloadLength": 964,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UIModule-FeaturesChecked.txt_7nub.info"
       ],
-      "DebugActionIndex": 205
+      "DebugActionIndex": 209
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UIModule-FeaturesChecked.txt",
@@ -5278,25 +5334,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UIModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        205
+        209
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 206
+      "DebugActionIndex": 210
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UmbraModule-FeaturesChecked.txt_8xpa.info",
       "DisplayName": "Writing UnityEngine.UmbraModule-FeaturesChecked.txt_8xpa.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 68941,
+      "PayloadOffset": 69205,
       "PayloadLength": 970,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UmbraModule-FeaturesChecked.txt_8xpa.info"
       ],
-      "DebugActionIndex": 207
+      "DebugActionIndex": 211
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UmbraModule-FeaturesChecked.txt",
@@ -5350,25 +5406,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UmbraModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        207
+        211
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 208
+      "DebugActionIndex": 212
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityAnalyticsCommonModule-FeaturesChecked.txt_nin7.info",
       "DisplayName": "Writing UnityEngine.UnityAnalyticsCommonModule-FeaturesChecked.txt_nin7.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 70047,
+      "PayloadOffset": 70311,
       "PayloadLength": 1000,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityAnalyticsCommonModule-FeaturesChecked.txt_nin7.info"
       ],
-      "DebugActionIndex": 209
+      "DebugActionIndex": 213
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityAnalyticsCommonModule-FeaturesChecked.txt",
@@ -5422,25 +5478,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityAnalyticsCommonModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        209
+        213
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 210
+      "DebugActionIndex": 214
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt_cq48.info",
       "DisplayName": "Writing UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt_cq48.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 71177,
+      "PayloadOffset": 71441,
       "PayloadLength": 988,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt_cq48.info"
       ],
-      "DebugActionIndex": 211
+      "DebugActionIndex": 215
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt",
@@ -5494,25 +5550,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityAnalyticsModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        211
+        215
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 212
+      "DebugActionIndex": 216
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityConnectModule-FeaturesChecked.txt_k9ga.info",
       "DisplayName": "Writing UnityEngine.UnityConnectModule-FeaturesChecked.txt_k9ga.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 72293,
+      "PayloadOffset": 72557,
       "PayloadLength": 984,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityConnectModule-FeaturesChecked.txt_k9ga.info"
       ],
-      "DebugActionIndex": 213
+      "DebugActionIndex": 217
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityConnectModule-FeaturesChecked.txt",
@@ -5566,25 +5622,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityConnectModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        213
+        217
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 214
+      "DebugActionIndex": 218
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityCurlModule-FeaturesChecked.txt_8vyn.info",
       "DisplayName": "Writing UnityEngine.UnityCurlModule-FeaturesChecked.txt_8vyn.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 73402,
+      "PayloadOffset": 73666,
       "PayloadLength": 978,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityCurlModule-FeaturesChecked.txt_8vyn.info"
       ],
-      "DebugActionIndex": 215
+      "DebugActionIndex": 219
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityCurlModule-FeaturesChecked.txt",
@@ -5638,25 +5694,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityCurlModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        215
+        219
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 216
+      "DebugActionIndex": 220
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityTestProtocolModule-FeaturesChecked.txt_284i.info",
       "DisplayName": "Writing UnityEngine.UnityTestProtocolModule-FeaturesChecked.txt_284i.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 74513,
+      "PayloadOffset": 74777,
       "PayloadLength": 994,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityTestProtocolModule-FeaturesChecked.txt_284i.info"
       ],
-      "DebugActionIndex": 217
+      "DebugActionIndex": 221
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityTestProtocolModule-FeaturesChecked.txt",
@@ -5710,25 +5766,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityTestProtocolModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        217
+        221
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 218
+      "DebugActionIndex": 222
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt_l4dl.info",
       "DisplayName": "Writing UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt_l4dl.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 75649,
+      "PayloadOffset": 75913,
       "PayloadLength": 1012,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt_l4dl.info"
       ],
-      "DebugActionIndex": 219
+      "DebugActionIndex": 223
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt",
@@ -5782,25 +5838,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestAssetBundleModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        219
+        223
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 220
+      "DebugActionIndex": 224
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt_p8ol.info",
       "DisplayName": "Writing UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt_p8ol.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 76797,
+      "PayloadOffset": 77061,
       "PayloadLength": 1000,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt_p8ol.info"
       ],
-      "DebugActionIndex": 221
+      "DebugActionIndex": 225
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt",
@@ -5854,25 +5910,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestAudioModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        221
+        225
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 222
+      "DebugActionIndex": 226
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt_vyuy.info",
       "DisplayName": "Writing UnityEngine.UnityWebRequestModule-FeaturesChecked.txt_vyuy.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 77928,
+      "PayloadOffset": 78192,
       "PayloadLength": 990,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt_vyuy.info"
       ],
-      "DebugActionIndex": 223
+      "DebugActionIndex": 227
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt",
@@ -5926,25 +5982,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        223
+        227
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 224
+      "DebugActionIndex": 228
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt_ekwn.info",
       "DisplayName": "Writing UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt_ekwn.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 79056,
+      "PayloadOffset": 79320,
       "PayloadLength": 1004,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt_ekwn.info"
       ],
-      "DebugActionIndex": 225
+      "DebugActionIndex": 229
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt",
@@ -5998,25 +6054,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestTextureModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        225
+        229
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 226
+      "DebugActionIndex": 230
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt_qggm.info",
       "DisplayName": "Writing UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt_qggm.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 80194,
+      "PayloadOffset": 80458,
       "PayloadLength": 996,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt_qggm.info"
       ],
-      "DebugActionIndex": 227
+      "DebugActionIndex": 231
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt",
@@ -6070,25 +6126,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UnityWebRequestWWWModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        227
+        231
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 228
+      "DebugActionIndex": 232
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.VFXModule-FeaturesChecked.txt_bxls.info",
       "DisplayName": "Writing UnityEngine.VFXModule-FeaturesChecked.txt_bxls.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 81309,
+      "PayloadOffset": 81573,
       "PayloadLength": 966,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.VFXModule-FeaturesChecked.txt_bxls.info"
       ],
-      "DebugActionIndex": 229
+      "DebugActionIndex": 233
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VFXModule-FeaturesChecked.txt",
@@ -6142,25 +6198,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VFXModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        229
+        233
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 230
+      "DebugActionIndex": 234
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.VRModule-FeaturesChecked.txt_vcbw.info",
       "DisplayName": "Writing UnityEngine.VRModule-FeaturesChecked.txt_vcbw.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 82393,
+      "PayloadOffset": 82657,
       "PayloadLength": 964,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.VRModule-FeaturesChecked.txt_vcbw.info"
       ],
-      "DebugActionIndex": 231
+      "DebugActionIndex": 235
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VRModule-FeaturesChecked.txt",
@@ -6214,25 +6270,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VRModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        231
+        235
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 232
+      "DebugActionIndex": 236
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.VehiclesModule-FeaturesChecked.txt_yqqz.info",
       "DisplayName": "Writing UnityEngine.VehiclesModule-FeaturesChecked.txt_yqqz.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 83481,
+      "PayloadOffset": 83745,
       "PayloadLength": 976,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.VehiclesModule-FeaturesChecked.txt_yqqz.info"
       ],
-      "DebugActionIndex": 233
+      "DebugActionIndex": 237
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VehiclesModule-FeaturesChecked.txt",
@@ -6286,25 +6342,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VehiclesModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        233
+        237
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 234
+      "DebugActionIndex": 238
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.VideoModule-FeaturesChecked.txt_iwkd.info",
       "DisplayName": "Writing UnityEngine.VideoModule-FeaturesChecked.txt_iwkd.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 84578,
+      "PayloadOffset": 84842,
       "PayloadLength": 970,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.VideoModule-FeaturesChecked.txt_iwkd.info"
       ],
-      "DebugActionIndex": 235
+      "DebugActionIndex": 239
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VideoModule-FeaturesChecked.txt",
@@ -6358,25 +6414,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VideoModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        235
+        239
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 236
+      "DebugActionIndex": 240
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.VirtualTexturingModule-FeaturesChecked.txt_s9m7.info",
       "DisplayName": "Writing UnityEngine.VirtualTexturingModule-FeaturesChecked.txt_s9m7.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 85680,
+      "PayloadOffset": 85944,
       "PayloadLength": 992,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.VirtualTexturingModule-FeaturesChecked.txt_s9m7.info"
       ],
-      "DebugActionIndex": 237
+      "DebugActionIndex": 241
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VirtualTexturingModule-FeaturesChecked.txt",
@@ -6430,25 +6486,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.VirtualTexturingModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        237
+        241
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 238
+      "DebugActionIndex": 242
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.WindModule-FeaturesChecked.txt_7k27.info",
       "DisplayName": "Writing UnityEngine.WindModule-FeaturesChecked.txt_7k27.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 86792,
+      "PayloadOffset": 87056,
       "PayloadLength": 968,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.WindModule-FeaturesChecked.txt_7k27.info"
       ],
-      "DebugActionIndex": 239
+      "DebugActionIndex": 243
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.WindModule-FeaturesChecked.txt",
@@ -6502,25 +6558,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.WindModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        239
+        243
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 240
+      "DebugActionIndex": 244
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.XRModule-FeaturesChecked.txt_p5c9.info",
       "DisplayName": "Writing UnityEngine.XRModule-FeaturesChecked.txt_p5c9.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 87878,
+      "PayloadOffset": 88142,
       "PayloadLength": 964,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.XRModule-FeaturesChecked.txt_p5c9.info"
       ],
-      "DebugActionIndex": 241
+      "DebugActionIndex": 245
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.XRModule-FeaturesChecked.txt",
@@ -6574,25 +6630,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.XRModule-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        241
+        245
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 242
+      "DebugActionIndex": 246
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine-FeaturesChecked.txt_dbvs.info",
       "DisplayName": "Writing UnityEngine-FeaturesChecked.txt_dbvs.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 88951,
+      "PayloadOffset": 89215,
       "PayloadLength": 946,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine-FeaturesChecked.txt_dbvs.info"
       ],
-      "DebugActionIndex": 243
+      "DebugActionIndex": 247
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine-FeaturesChecked.txt",
@@ -6646,25 +6702,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        243
+        247
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 244
+      "DebugActionIndex": 248
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Assembly-CSharp-FeaturesChecked.txt_st52.info",
       "DisplayName": "Writing Assembly-CSharp-FeaturesChecked.txt_st52.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 90010,
+      "PayloadOffset": 90274,
       "PayloadLength": 907,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Assembly-CSharp-FeaturesChecked.txt_st52.info"
       ],
-      "DebugActionIndex": 245
+      "DebugActionIndex": 249
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Assembly-CSharp-FeaturesChecked.txt",
@@ -6718,25 +6774,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Assembly-CSharp-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        245
+        249
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 246
+      "DebugActionIndex": 250
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.Timeline-FeaturesChecked.txt_2liy.info",
       "DisplayName": "Writing Unity.Timeline-FeaturesChecked.txt_2liy.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 91029,
+      "PayloadOffset": 91293,
       "PayloadLength": 905,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Unity.Timeline-FeaturesChecked.txt_2liy.info"
       ],
-      "DebugActionIndex": 247
+      "DebugActionIndex": 251
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Timeline-FeaturesChecked.txt",
@@ -6790,25 +6846,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.Timeline-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        247
+        251
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 248
+      "DebugActionIndex": 252
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.InputSystem-FeaturesChecked.txt_ishb.info",
       "DisplayName": "Writing Unity.InputSystem-FeaturesChecked.txt_ishb.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 92049,
+      "PayloadOffset": 92313,
       "PayloadLength": 911,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Unity.InputSystem-FeaturesChecked.txt_ishb.info"
       ],
-      "DebugActionIndex": 249
+      "DebugActionIndex": 253
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.InputSystem-FeaturesChecked.txt",
@@ -6862,25 +6918,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.InputSystem-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        249
+        253
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 250
+      "DebugActionIndex": 254
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.InputSystem.ForUI-FeaturesChecked.txt_1bzd.info",
       "DisplayName": "Writing Unity.InputSystem.ForUI-FeaturesChecked.txt_1bzd.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 93081,
+      "PayloadOffset": 93345,
       "PayloadLength": 923,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Unity.InputSystem.ForUI-FeaturesChecked.txt_1bzd.info"
       ],
-      "DebugActionIndex": 251
+      "DebugActionIndex": 255
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.InputSystem.ForUI-FeaturesChecked.txt",
@@ -6934,25 +6990,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.InputSystem.ForUI-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        251
+        255
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 252
+      "DebugActionIndex": 256
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityEngine.UI-FeaturesChecked.txt_fzlo.info",
       "DisplayName": "Writing UnityEngine.UI-FeaturesChecked.txt_fzlo.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 94116,
+      "PayloadOffset": 94380,
       "PayloadLength": 905,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityEngine.UI-FeaturesChecked.txt_fzlo.info"
       ],
-      "DebugActionIndex": 253
+      "DebugActionIndex": 257
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UI-FeaturesChecked.txt",
@@ -7006,25 +7062,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/UnityEngine.UI-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        253
+        257
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 254
+      "DebugActionIndex": 258
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.TextMeshPro-FeaturesChecked.txt_wbcl.info",
       "DisplayName": "Writing Unity.TextMeshPro-FeaturesChecked.txt_wbcl.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 95136,
+      "PayloadOffset": 95400,
       "PayloadLength": 911,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Unity.TextMeshPro-FeaturesChecked.txt_wbcl.info"
       ],
-      "DebugActionIndex": 255
+      "DebugActionIndex": 259
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.TextMeshPro-FeaturesChecked.txt",
@@ -7078,25 +7134,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.TextMeshPro-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        255
+        259
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 256
+      "DebugActionIndex": 260
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Core-FeaturesChecked.txt_jz2l.info",
       "DisplayName": "Writing Unity.VisualScripting.Core-FeaturesChecked.txt_jz2l.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 96171,
+      "PayloadOffset": 96435,
       "PayloadLength": 929,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Core-FeaturesChecked.txt_jz2l.info"
       ],
-      "DebugActionIndex": 257
+      "DebugActionIndex": 261
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.Core-FeaturesChecked.txt",
@@ -7150,25 +7206,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.Core-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        257
+        261
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 258
+      "DebugActionIndex": 262
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.VisualScripting.State-FeaturesChecked.txt_nfic.info",
       "DisplayName": "Writing Unity.VisualScripting.State-FeaturesChecked.txt_nfic.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 97225,
+      "PayloadOffset": 97489,
       "PayloadLength": 931,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Unity.VisualScripting.State-FeaturesChecked.txt_nfic.info"
       ],
-      "DebugActionIndex": 259
+      "DebugActionIndex": 263
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.State-FeaturesChecked.txt",
@@ -7222,25 +7278,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.State-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        259
+        263
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 260
+      "DebugActionIndex": 264
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Flow-FeaturesChecked.txt_ugjg.info",
       "DisplayName": "Writing Unity.VisualScripting.Flow-FeaturesChecked.txt_ugjg.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 98280,
+      "PayloadOffset": 98544,
       "PayloadLength": 929,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Flow-FeaturesChecked.txt_ugjg.info"
       ],
-      "DebugActionIndex": 261
+      "DebugActionIndex": 265
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.Flow-FeaturesChecked.txt",
@@ -7294,25 +7350,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.Flow-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        261
+        265
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 262
+      "DebugActionIndex": 266
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt_knev.info",
       "DisplayName": "Writing Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt_knev.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 99343,
+      "PayloadOffset": 99607,
       "PayloadLength": 1015,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt_knev.info"
       ],
-      "DebugActionIndex": 263
+      "DebugActionIndex": 267
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt",
@@ -7366,25 +7422,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Unity.VisualScripting.Antlr3.Runtime-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        263
+        267
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 264
+      "DebugActionIndex": 268
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/netstandard-FeaturesChecked.txt_cc0i.info",
       "DisplayName": "Writing netstandard-FeaturesChecked.txt_cc0i.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 100467,
+      "PayloadOffset": 100731,
       "PayloadLength": 934,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/netstandard-FeaturesChecked.txt_cc0i.info"
       ],
-      "DebugActionIndex": 265
+      "DebugActionIndex": 269
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/netstandard-FeaturesChecked.txt",
@@ -7438,25 +7494,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/netstandard-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        265
+        269
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 266
+      "DebugActionIndex": 270
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Mono.Security-FeaturesChecked.txt_tcfg.info",
       "DisplayName": "Writing Mono.Security-FeaturesChecked.txt_tcfg.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 101512,
+      "PayloadOffset": 101776,
       "PayloadLength": 930,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Mono.Security-FeaturesChecked.txt_tcfg.info"
       ],
-      "DebugActionIndex": 267
+      "DebugActionIndex": 271
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Mono.Security-FeaturesChecked.txt",
@@ -7510,25 +7566,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/Mono.Security-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        267
+        271
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 268
+      "DebugActionIndex": 272
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.ComponentModel.Composition-FeaturesChecked.txt_tzo9.info",
       "DisplayName": "Writing System.ComponentModel.Composition-FeaturesChecked.txt_tzo9.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 102573,
+      "PayloadOffset": 102837,
       "PayloadLength": 970,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.ComponentModel.Composition-FeaturesChecked.txt_tzo9.info"
       ],
-      "DebugActionIndex": 269
+      "DebugActionIndex": 273
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.ComponentModel.Composition-FeaturesChecked.txt",
@@ -7582,25 +7638,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.ComponentModel.Composition-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        269
+        273
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 270
+      "DebugActionIndex": 274
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Configuration-FeaturesChecked.txt_3sq7.info",
       "DisplayName": "Writing System.Configuration-FeaturesChecked.txt_3sq7.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 103661,
+      "PayloadOffset": 103925,
       "PayloadLength": 944,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Configuration-FeaturesChecked.txt_3sq7.info"
       ],
-      "DebugActionIndex": 271
+      "DebugActionIndex": 275
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Configuration-FeaturesChecked.txt",
@@ -7654,25 +7710,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Configuration-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        271
+        275
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 272
+      "DebugActionIndex": 276
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Core-FeaturesChecked.txt_0bzp.info",
       "DisplayName": "Writing System.Core-FeaturesChecked.txt_0bzp.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 104714,
+      "PayloadOffset": 104978,
       "PayloadLength": 926,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Core-FeaturesChecked.txt_0bzp.info"
       ],
-      "DebugActionIndex": 273
+      "DebugActionIndex": 277
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Core-FeaturesChecked.txt",
@@ -7726,25 +7782,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Core-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        273
+        277
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 274
+      "DebugActionIndex": 278
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Data.DataSetExtensions-FeaturesChecked.txt_h20m.info",
       "DisplayName": "Writing System.Data.DataSetExtensions-FeaturesChecked.txt_h20m.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 105767,
+      "PayloadOffset": 106031,
       "PayloadLength": 962,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Data.DataSetExtensions-FeaturesChecked.txt_h20m.info"
       ],
-      "DebugActionIndex": 275
+      "DebugActionIndex": 279
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Data.DataSetExtensions-FeaturesChecked.txt",
@@ -7798,25 +7854,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Data.DataSetExtensions-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        275
+        279
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 276
+      "DebugActionIndex": 280
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Data-FeaturesChecked.txt_7g7q.info",
       "DisplayName": "Writing System.Data-FeaturesChecked.txt_7g7q.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 106838,
+      "PayloadOffset": 107102,
       "PayloadLength": 926,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Data-FeaturesChecked.txt_7g7q.info"
       ],
-      "DebugActionIndex": 277
+      "DebugActionIndex": 281
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Data-FeaturesChecked.txt",
@@ -7870,25 +7926,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Data-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        277
+        281
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 278
+      "DebugActionIndex": 282
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Drawing-FeaturesChecked.txt_z3qy.info",
       "DisplayName": "Writing System.Drawing-FeaturesChecked.txt_z3qy.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 107876,
+      "PayloadOffset": 108140,
       "PayloadLength": 932,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Drawing-FeaturesChecked.txt_z3qy.info"
       ],
-      "DebugActionIndex": 279
+      "DebugActionIndex": 283
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Drawing-FeaturesChecked.txt",
@@ -7942,25 +7998,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Drawing-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        279
+        283
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 280
+      "DebugActionIndex": 284
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.EnterpriseServices-FeaturesChecked.txt_kfl0.info",
       "DisplayName": "Writing System.EnterpriseServices-FeaturesChecked.txt_kfl0.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 108931,
+      "PayloadOffset": 109195,
       "PayloadLength": 954,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.EnterpriseServices-FeaturesChecked.txt_kfl0.info"
       ],
-      "DebugActionIndex": 281
+      "DebugActionIndex": 285
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.EnterpriseServices-FeaturesChecked.txt",
@@ -8014,25 +8070,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.EnterpriseServices-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        281
+        285
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 282
+      "DebugActionIndex": 286
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.IO.Compression.FileSystem-FeaturesChecked.txt_84o4.info",
       "DisplayName": "Writing System.IO.Compression.FileSystem-FeaturesChecked.txt_84o4.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 110015,
+      "PayloadOffset": 110279,
       "PayloadLength": 968,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.IO.Compression.FileSystem-FeaturesChecked.txt_84o4.info"
       ],
-      "DebugActionIndex": 283
+      "DebugActionIndex": 287
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.IO.Compression.FileSystem-FeaturesChecked.txt",
@@ -8086,25 +8142,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.IO.Compression.FileSystem-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        283
+        287
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 284
+      "DebugActionIndex": 288
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.IO.Compression-FeaturesChecked.txt_zz9e.info",
       "DisplayName": "Writing System.IO.Compression-FeaturesChecked.txt_zz9e.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 111102,
+      "PayloadOffset": 111366,
       "PayloadLength": 946,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.IO.Compression-FeaturesChecked.txt_zz9e.info"
       ],
-      "DebugActionIndex": 285
+      "DebugActionIndex": 289
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.IO.Compression-FeaturesChecked.txt",
@@ -8158,25 +8214,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.IO.Compression-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        285
+        289
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 286
+      "DebugActionIndex": 290
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Net.Http-FeaturesChecked.txt_ebzk.info",
       "DisplayName": "Writing System.Net.Http-FeaturesChecked.txt_ebzk.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 112161,
+      "PayloadOffset": 112425,
       "PayloadLength": 934,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Net.Http-FeaturesChecked.txt_ebzk.info"
       ],
-      "DebugActionIndex": 287
+      "DebugActionIndex": 291
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Net.Http-FeaturesChecked.txt",
@@ -8230,25 +8286,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Net.Http-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        287
+        291
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 288
+      "DebugActionIndex": 292
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Numerics-FeaturesChecked.txt_rbrh.info",
       "DisplayName": "Writing System.Numerics-FeaturesChecked.txt_rbrh.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 113208,
+      "PayloadOffset": 113472,
       "PayloadLength": 934,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Numerics-FeaturesChecked.txt_rbrh.info"
       ],
-      "DebugActionIndex": 289
+      "DebugActionIndex": 293
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Numerics-FeaturesChecked.txt",
@@ -8302,25 +8358,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Numerics-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        289
+        293
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 290
+      "DebugActionIndex": 294
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Runtime.Serialization-FeaturesChecked.txt_zqp0.info",
       "DisplayName": "Writing System.Runtime.Serialization-FeaturesChecked.txt_zqp0.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 114268,
+      "PayloadOffset": 114532,
       "PayloadLength": 960,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Runtime.Serialization-FeaturesChecked.txt_zqp0.info"
       ],
-      "DebugActionIndex": 291
+      "DebugActionIndex": 295
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Runtime.Serialization-FeaturesChecked.txt",
@@ -8374,25 +8430,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Runtime.Serialization-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        291
+        295
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 292
+      "DebugActionIndex": 296
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Security-FeaturesChecked.txt_hwii.info",
       "DisplayName": "Writing System.Security-FeaturesChecked.txt_hwii.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 115341,
+      "PayloadOffset": 115605,
       "PayloadLength": 934,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Security-FeaturesChecked.txt_hwii.info"
       ],
-      "DebugActionIndex": 293
+      "DebugActionIndex": 297
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Security-FeaturesChecked.txt",
@@ -8446,25 +8502,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Security-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        293
+        297
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 294
+      "DebugActionIndex": 298
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.ServiceModel.Internals-FeaturesChecked.txt_9818.info",
       "DisplayName": "Writing System.ServiceModel.Internals-FeaturesChecked.txt_9818.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 116402,
+      "PayloadOffset": 116666,
       "PayloadLength": 962,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.ServiceModel.Internals-FeaturesChecked.txt_9818.info"
       ],
-      "DebugActionIndex": 295
+      "DebugActionIndex": 299
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.ServiceModel.Internals-FeaturesChecked.txt",
@@ -8518,25 +8574,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.ServiceModel.Internals-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        295
+        299
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 296
+      "DebugActionIndex": 300
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Transactions-FeaturesChecked.txt_y9v7.info",
       "DisplayName": "Writing System.Transactions-FeaturesChecked.txt_y9v7.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 117481,
+      "PayloadOffset": 117745,
       "PayloadLength": 942,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Transactions-FeaturesChecked.txt_y9v7.info"
       ],
-      "DebugActionIndex": 297
+      "DebugActionIndex": 301
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Transactions-FeaturesChecked.txt",
@@ -8590,25 +8646,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Transactions-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        297
+        301
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 298
+      "DebugActionIndex": 302
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Xml.Linq-FeaturesChecked.txt_osyp.info",
       "DisplayName": "Writing System.Xml.Linq-FeaturesChecked.txt_osyp.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 118536,
+      "PayloadOffset": 118800,
       "PayloadLength": 934,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Xml.Linq-FeaturesChecked.txt_osyp.info"
       ],
-      "DebugActionIndex": 299
+      "DebugActionIndex": 303
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Xml.Linq-FeaturesChecked.txt",
@@ -8662,25 +8718,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Xml.Linq-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        299
+        303
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 300
+      "DebugActionIndex": 304
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System.Xml-FeaturesChecked.txt_gyyq.info",
       "DisplayName": "Writing System.Xml-FeaturesChecked.txt_gyyq.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 119578,
+      "PayloadOffset": 119842,
       "PayloadLength": 924,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System.Xml-FeaturesChecked.txt_gyyq.info"
       ],
-      "DebugActionIndex": 301
+      "DebugActionIndex": 305
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Xml-FeaturesChecked.txt",
@@ -8734,25 +8790,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System.Xml-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        301
+        305
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 302
+      "DebugActionIndex": 306
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/System-FeaturesChecked.txt_vs5j.info",
       "DisplayName": "Writing System-FeaturesChecked.txt_vs5j.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 120606,
+      "PayloadOffset": 120870,
       "PayloadLength": 916,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/System-FeaturesChecked.txt_vs5j.info"
       ],
-      "DebugActionIndex": 303
+      "DebugActionIndex": 307
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System-FeaturesChecked.txt",
@@ -8806,25 +8862,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/System-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        303
+        307
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 304
+      "DebugActionIndex": 308
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/mscorlib-FeaturesChecked.txt_h5ip.info",
       "DisplayName": "Writing mscorlib-FeaturesChecked.txt_h5ip.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 121628,
+      "PayloadOffset": 121892,
       "PayloadLength": 920,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Fe",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/mscorlib-FeaturesChecked.txt_h5ip.info"
       ],
-      "DebugActionIndex": 305
+      "DebugActionIndex": 309
     },
     {
       "Annotation": "ExtractUsedFeatures Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/mscorlib-FeaturesChecked.txt",
@@ -8878,25 +8934,25 @@
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Features/mscorlib-FeaturesChecked.txt"
       ],
       "ToBuildDependencies": [
-        305
+        309
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 306
+      "DebugActionIndex": 310
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 122647,
+      "PayloadOffset": 122911,
       "PayloadLength": 19,
       "PayloadDebugContentSnippet": "DefaultCompany\nPong",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/MacStandalonePlayerBuildProgram/Data/app.info"
       ],
-      "DebugActionIndex": 307
+      "DebugActionIndex": 311
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/unity default resources",
@@ -8908,20 +8964,20 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/unity default resources"
       ],
-      "DebugActionIndex": 308
+      "DebugActionIndex": 312
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityPlayer.dylib_dku3.info",
       "DisplayName": "Writing UnityPlayer.dylib_dku3.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 122761,
+      "PayloadOffset": 123025,
       "PayloadLength": 677,
       "PayloadDebugContentSnippet": "{\"UnityEditor.OSXStandalone.Co",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityPlayer.dylib_dku3.info"
       ],
-      "DebugActionIndex": 309
+      "DebugActionIndex": 313
     },
     {
       "Annotation": "MacOSCodeSignDylibCopy /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Frameworks/UnityPlayer.dylib",
@@ -8949,12 +9005,12 @@
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Frameworks/UnityPlayer.dylib"
       ],
       "ToBuildDependencies": [
-        309
+        313
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 310
+      "DebugActionIndex": 314
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Frameworks/libMonoPosixHelper.dylib",
@@ -8966,7 +9022,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Frameworks/libMonoPosixHelper.dylib"
       ],
-      "DebugActionIndex": 311
+      "DebugActionIndex": 315
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Frameworks/libmonobdwgc-2.0.dylib",
@@ -8978,7 +9034,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Frameworks/libmonobdwgc-2.0.dylib"
       ],
-      "DebugActionIndex": 312
+      "DebugActionIndex": 316
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Frameworks/libmono-native.dylib",
@@ -8990,7 +9046,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Frameworks/libmono-native.dylib"
       ],
-      "DebugActionIndex": 313
+      "DebugActionIndex": 317
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -9002,7 +9058,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 314
+      "DebugActionIndex": 318
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -9014,7 +9070,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 315
+      "DebugActionIndex": 319
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -9026,7 +9082,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 316
+      "DebugActionIndex": 320
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -9038,7 +9094,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 317
+      "DebugActionIndex": 321
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -9050,7 +9106,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 318
+      "DebugActionIndex": 322
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -9062,7 +9118,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 319
+      "DebugActionIndex": 323
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -9074,7 +9130,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 320
+      "DebugActionIndex": 324
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -9086,7 +9142,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 321
+      "DebugActionIndex": 325
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -9098,7 +9154,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 322
+      "DebugActionIndex": 326
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -9110,7 +9166,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 323
+      "DebugActionIndex": 327
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -9122,7 +9178,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 324
+      "DebugActionIndex": 328
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -9134,7 +9190,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 325
+      "DebugActionIndex": 329
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -9146,7 +9202,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 326
+      "DebugActionIndex": 330
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -9158,7 +9214,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 327
+      "DebugActionIndex": 331
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -9170,7 +9226,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 328
+      "DebugActionIndex": 332
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -9182,7 +9238,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 329
+      "DebugActionIndex": 333
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/config",
@@ -9194,7 +9250,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 330
+      "DebugActionIndex": 334
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -9206,7 +9262,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 331
+      "DebugActionIndex": 335
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/app.info",
@@ -9219,9 +9275,9 @@
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/app.info"
       ],
       "ToBuildDependencies": [
-        307
+        311
       ],
-      "DebugActionIndex": 332
+      "DebugActionIndex": 336
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/DefaultPreferences.plist",
@@ -9233,7 +9289,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/DefaultPreferences.plist"
       ],
-      "DebugActionIndex": 333
+      "DebugActionIndex": 337
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/MainMenu.nib/designable.nib",
@@ -9245,7 +9301,7 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/MainMenu.nib/designable.nib"
       ],
-      "DebugActionIndex": 334
+      "DebugActionIndex": 338
     },
     {
       "Annotation": "CopyFiles /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/MainMenu.nib/keyedobjects.nib",
@@ -9257,33 +9313,33 @@
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/MainMenu.nib/keyedobjects.nib"
       ],
-      "DebugActionIndex": 335
+      "DebugActionIndex": 339
     },
     {
       "Annotation": "WriteText /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Info.plist",
       "DisplayName": "Writing Info.plist",
       "ActionType": "WriteFile",
-      "PayloadOffset": 123546,
+      "PayloadOffset": 123810,
       "PayloadLength": 1502,
       "PayloadDebugContentSnippet": "<?xml version=\"1.0\" encoding=\"",
       "Inputs": [],
       "Outputs": [
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Info.plist"
       ],
-      "DebugActionIndex": 336
+      "DebugActionIndex": 340
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Pong_fljk.info",
       "DisplayName": "Writing Pong_fljk.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 125130,
-      "PayloadLength": 17158,
+      "PayloadOffset": 125394,
+      "PayloadLength": 17578,
       "PayloadDebugContentSnippet": "{\"MacOSCodeSignBundleInPlace+D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/Pong_fljk.info"
       ],
-      "DebugActionIndex": 337
+      "DebugActionIndex": 341
     },
     {
       "Annotation": "MacOSCodeSignBundleInPlace /Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/MacOS/Pong (+1 other)",
@@ -9295,10 +9351,14 @@
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/globalgamemanagers.assets.resS",
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/level0",
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/level0.resS",
+        "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/resources.assets",
+        "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/resources.assets.resS",
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Resources/unity_builtin_extra",
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/RuntimeInitializeOnLoads.json",
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/ScriptingAssemblies.json",
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/sharedassets0.assets",
+        "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/sharedassets0.assets.resS",
+        "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/sharedassets0.resource",
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/boot.config",
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.AIModule.dll",
         "/Users/angesicard/Desktop/CSUMB/326/Builds/BuildPong.app/Contents/Resources/Data/Managed/UnityEngine.ARModule.dll",
@@ -9457,10 +9517,10 @@
         7,
         8,
         9,
+        10,
+        11,
         12,
         13,
-        14,
-        15,
         16,
         17,
         18,
@@ -9556,11 +9616,11 @@
         108,
         109,
         110,
-        308,
-        310,
-        311,
+        111,
+        112,
+        113,
+        114,
         312,
-        313,
         314,
         315,
         316,
@@ -9584,12 +9644,16 @@
         334,
         335,
         336,
-        337
+        337,
+        338,
+        339,
+        340,
+        341
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 338
+      "DebugActionIndex": 342
     },
     {
       "Annotation": "Player",
@@ -9606,10 +9670,10 @@
         7,
         8,
         9,
+        10,
+        11,
         12,
         13,
-        14,
-        15,
         16,
         17,
         18,
@@ -9705,7 +9769,9 @@
         108,
         109,
         110,
+        111,
         112,
+        113,
         114,
         116,
         118,
@@ -9805,9 +9871,7 @@
         306,
         308,
         310,
-        311,
         312,
-        313,
         314,
         315,
         316,
@@ -9831,10 +9895,14 @@
         334,
         335,
         336,
-        338
+        337,
+        338,
+        339,
+        340,
+        342
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 339
+      "DebugActionIndex": 343
     }
   ],
   "FileSignatures": [
@@ -10042,7 +10110,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 339
+          "Player": 343
         }
 ,  "DefaultNodes": [
     0

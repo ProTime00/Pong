@@ -24,7 +24,6 @@ public class PowerUpManager : MonoBehaviour
                     Vector3 pos = Vector3.zero;
                     pos.x = Random.Range(-25f, 25f);
                     pos.z = Random.Range(8f, 42f);
-                    pos.z = 25;
                     Faster.transform.position = pos;
                     Faster.SetActive(true);
                 }
@@ -33,7 +32,6 @@ public class PowerUpManager : MonoBehaviour
                     Vector3 pos = Vector3.zero;
                     pos.x = Random.Range(-25f, 25f);
                     pos.z = Random.Range(8f, 42f);
-                    pos.z = 25;
                     Faster.transform.position = pos;
                 }
             }
@@ -44,7 +42,6 @@ public class PowerUpManager : MonoBehaviour
                     Vector3 pos = Vector3.zero;
                     pos.x = Random.Range(-25f, 25f);
                     pos.z = Random.Range(8f, 42f);
-                    pos.z = 25;
                     Slower.transform.position = pos;
                     Slower.SetActive(true);
                 }
@@ -53,7 +50,6 @@ public class PowerUpManager : MonoBehaviour
                     Vector3 pos = Vector3.zero;
                     pos.x = Random.Range(-25f, 25f);
                     pos.z = Random.Range(8f, 42f);
-                    pos.z = 25;
                     Slower.transform.position = pos;
                 }
             }

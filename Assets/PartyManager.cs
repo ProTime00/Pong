@@ -1,11 +1,14 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 public class PartyManager : MonoBehaviour
 {
     public int scoreLeft;
+    public TextMeshProUGUI endText;
     public int scoreRight;
     public GameObject ballPrefab;
     private int _wait = 150;
@@ -14,6 +17,7 @@ public class PartyManager : MonoBehaviour
     private BallMovement _ballMovement;
     public GameObject paddleLeft;
     public GameObject paddleRight;
+    public Camera test;
     
     private InputAction _restart;
     private Pong _actions;
@@ -22,6 +26,7 @@ public class PartyManager : MonoBehaviour
 
     private void Awake()
     {
+        endText.gameObject.SetActive(false);
         _actions = new Pong();
         Instance = this;
     }
@@ -76,6 +81,7 @@ public class PartyManager : MonoBehaviour
 
     public void HandleLeftScore()
     {
+        test.backgroundColor = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
         scoreLeft += 1;
         ballPrefab.gameObject.SetActive(false);
         //Destroy(destroyed);
@@ -89,6 +95,7 @@ public class PartyManager : MonoBehaviour
 
     private void HandleWinLeft()
     {
+        endText.gameObject.SetActive(true);
         var materialWin = paddleLeft.GetComponent<Renderer>();
         materialWin.material.color = Color.green;
         var materialLose = paddleRight.GetComponent<Renderer>();
@@ -97,6 +104,7 @@ public class PartyManager : MonoBehaviour
 
     public void HandleRightScore()
     {
+        test.backgroundColor = new Color(Random.Range(0, 1f), Random.Range(0, 1f), Random.Range(0, 1f));
         scoreRight += 1;
         ballPrefab.gameObject.SetActive(false);
         //Destroy(destroyed);
@@ -110,6 +118,7 @@ public class PartyManager : MonoBehaviour
 
     private void HandleWinRight()
     {
+        endText.gameObject.SetActive(true);
         var materialWin = paddleRight.GetComponent<Renderer>();
         materialWin.material.color = Color.green;
         var materialLose = paddleLeft.GetComponent<Renderer>();
